@@ -1,5 +1,5 @@
-const schema = require( '../schema' );
 
+const BookModel =require ('../bookModel')
 
 async function handleBook (req,res) {
   BookModel.find({},(error,data)=>{
